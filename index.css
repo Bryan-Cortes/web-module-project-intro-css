@@ -163,23 +163,33 @@ section {
 
 /*Website styles go under here by section*/
 
+body {
+  font-family: "Roboto Mono", monospace;
+  color: black;
+}
 .container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
+
+/* NAVBAR styles */
 .header .navbar {
-  margin: 5% 20% 0;
+  margin: 0 20% 3%;
   width: 75%;
 }
 
 .navbar a {
   padding: 1.5%;
-  margin: 5% 5%;
+  margin: 2% 5%;
   color: white;
   border-radius: 10px;
-  /* width: 100px; */
+  display: inline-block;
+  width: 15%;
+  font-size: 1.3rem;
+  text-align: center;
 }
 .navbar a span {
+  display: block;
 }
 .navbar .navbar_item1 {
   background-color: #ff764e;
@@ -191,10 +201,114 @@ section {
   background-color: #ffcd69;
 }
 
+/* Header styles */
+.header .header_container {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
 header .header_image {
-  width: 15%;
-  height: 15%;
+  width: 25%;
+  height: 25%;
   border: 0;
   border-radius: 50%;
-  margin: 5% 21%;
+  margin: 1%;
+}
+
+.header .main_tittle {
+  font-family: "Chelsea Market", cursive;
+  display: inline-block;
+  font-size: 4rem;
+  margin: 0 0 5%;
+}
+.header .header_1st_paragraph {
+  display: inline-block;
+  text-align: center;
+}
+
+.header .header_2nd_paragraph {
+  display: inline-block;
+  margin: 2%;
+  text-align: center;
+  width: 75%;
+}
+
+.header .h1_header_container {
+  /* background-color: blue; */
+  display: inline-block;
+  width: 60%;
+  margin: 5% 5% 2%;
+  text-align: center;
+}
+
+/* middle section styles */
+.middle_section {
+  margin: 0;
+}
+.middle_section .intro_paragraph {
+  background-color: #ddb9a3;
+  color: white;
+  padding: 1%;
+  margin: -3% 15%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.intro_paragraph .margin_for_middle {
+  display: block;
+  margin-top: 2%;
+}
+/* icons and paragraphs */
+.icon_section {
+  margin: 0;
+}
+.icon_and_paragraph .icon_image {
+  height: 10%;
+  width: 10%;
+  margin: 0 45%;
+}
+.icon_and_paragraph p {
+  margin: 1% 40% 5%;
+  text-align: center;
+  font-size: 1.4rem;
+  /* width: 20%; */
+}
+
+p .bold {
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  margin: 0;
+  max-width: 100%;
+  background-color: #f9e7dc;
+}
+
+.footer .footer_image img {
+  height: 40vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 20% 20%;
+}
+
+/* FOOTER NAV */
+
+.footer .navbar {
+  margin: 0 20% 0%;
+  width: 75%;
+}
+
+.footer a {
+  padding: 1.5%;
+  margin: 2% 5%;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  width: 15%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.footer a span {
+  display: block;
 }
